@@ -3,7 +3,15 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --description-text-color: #757575;
+  --headings-color: #212121;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+}
+
 /* ======HEADER START====== */
 .header {
   background-color: #ffffff;
@@ -37,13 +45,12 @@
 }
 
 .menu-link {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: var(--headings-color);
 }
 
 .menu-link:hover,
@@ -56,14 +63,12 @@
 }
 
 .contact-link {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-
-  color: #757575;
+  color: var(--description-text-color);
 }
 
 .contact-link:hover,
@@ -78,7 +83,6 @@
 }
 
 .main-title {
-  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -114,22 +118,18 @@
 }
 
 .advantages-list-item-title {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--headings-color);
 }
 
 .advantages-list-item-text {
-  font-family: var(--main-font);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 /* ======ADVANTAGES SECTION FINISH====== */
 
@@ -139,13 +139,12 @@
 }
 
 .duties-title {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--headings-color);
 }
 
 .duties-list {
@@ -163,31 +162,28 @@
 }
 
 .team-title {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--headings-color);
 }
 
 .team-subtitle {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--headings-color);
 }
 
 .team-text {
-  font-family: var(--main-font);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 /* ======TEAM SECTION FINISH====== */
 
@@ -202,7 +198,6 @@
 }
 
 .footer-link {
-  font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
@@ -233,7 +228,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  color: #212121;
+  color: var(--headings-color);
 }
 
 .projects-btn.current {
@@ -254,12 +249,11 @@
 }
 
 .examples-heading {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--headings-color);
 }
 
 .examples-link {
@@ -267,12 +261,10 @@
 }
 
 .examples-text {
-  font-family: var(--main-font);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-text-color);
 }
 /* ======EXAMPLES GALLERY FINISH====== */
 /* ======PORTFOLIO FINISH====== */
