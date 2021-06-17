@@ -101,6 +101,11 @@
   color: #ffffff;
   background: var(--accent-color);
 }
+
+.modal-btn: hover,
+.modal-btn: focus {
+}
+
 /* ======HERO FINISH====== */
 
 /* ======ADVANTAGES SECTION START====== */
