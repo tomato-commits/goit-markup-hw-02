@@ -1,11 +1,16 @@
 /* ======STUDIO START====== */
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
 /* ======HEADER START====== */
 .header {
   background-color: #ffffff;
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -15,12 +20,12 @@
 }
 
 .logo-accent {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-text {
@@ -32,7 +37,7 @@
 }
 
 .menu-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -43,15 +48,15 @@
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .menu-link.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contact-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -63,7 +68,7 @@
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* ======HEADER FINISH====== */
 
@@ -73,7 +78,7 @@
 }
 
 .main-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -84,7 +89,7 @@
 }
 
 .modal-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -94,7 +99,7 @@
   letter-spacing: 0.06em;
   cursor: pointer;
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 /* ======HERO FINISH====== */
 
@@ -104,7 +109,7 @@
 }
 
 .advantages-list-item-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -114,7 +119,7 @@
 }
 
 .advantages-list-item-text {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -129,7 +134,7 @@
 }
 
 .duties-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -153,7 +158,7 @@
 }
 
 .team-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -163,7 +168,7 @@
 }
 
 .team-subtitle {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -172,7 +177,7 @@
 }
 
 .team-text {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -192,8 +197,10 @@
 }
 
 .footer-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
+  font-style: normal;
   font-weight: normal;
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -204,6 +211,63 @@
 .footer-link:focus {
   color: #ffffff;
 }
-
 /* ======FOOTER SECTION FINISH====== */
 /* ======STUDIO FINISH====== */
+
+/* ======PORTFOLIO START====== */
+/* ======PROJECTS BUTTONS START====== */
+.projects-btn-list {
+  list-style: none;
+}
+
+.projects-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: #212121;
+}
+
+.projects-btn.current {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.projects-btn:hover,
+.projects-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+/* ======PROJECTS BUTTONS FINISH====== */
+
+/* ======EXAMPLES GALLERY START====== */
+.examples-list {
+  list-style: none;
+}
+
+.examples-heading {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.examples-link {
+  text-decoration: none;
+}
+
+.examples-text {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ======EXAMPLES GALLERY FINISH====== */
+/* ======PORTFOLIO FINISH====== */
